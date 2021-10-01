@@ -26,7 +26,6 @@ class CharInfo extends Component {
             this.updateChar();
         }
     }
-
     updateChar = () => {
         const {charId} = this.props;
         if (!charId) {
@@ -59,6 +58,7 @@ class CharInfo extends Component {
             loading: false,
             error: true
         })
+        
     }
 
     render() {
