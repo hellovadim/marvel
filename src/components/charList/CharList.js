@@ -13,6 +13,8 @@ const CharList = (props) => {
   const [charEnded, setCharEnded] = useState(false);
 
   const marvelService = new MarvelService();
+
+  
   useEffect(() => {
     onRequest();
   }, []);
