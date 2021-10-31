@@ -17,7 +17,7 @@ const SingleCharacterLayout = lazy(() =>
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/marvel">
       <div className="app">
         <AppHeader />
         <main>
